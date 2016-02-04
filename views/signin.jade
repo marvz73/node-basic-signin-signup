@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 Login
+	h4= message
+	form(method="post" action="/signin")
+		input(type="text" name="email" placeholder="Username")
+		input(type="password" name="password" placeholder="Password")
+		input(type="submit" value="Sign In")

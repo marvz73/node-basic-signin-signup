@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "poi2db",
+    "host"    : "localhost",
+    "dialect" : "mysql",
+    "logging" : false
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "poi_test",
+    "host"    : "127.0.0.1",
+    "dialect" : "mysql",
+    "logging" : false
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "poi_production",
+    "host"    : "127.0.0.1",
+    "dialect" : "mysql",
+    "logging" : false
+  }
+}

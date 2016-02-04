@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h1 Sign Up
+	h4= message
+	form(method="post" action="/signup")
+		input(reuired type="text" name="fname" placeholder="First Name")
+		br
+		input(reuired type="text" name="lname" placeholder="Last Name")
+		br
+		input(reuired type="email" name="email" placeholder="Email")
+		br
+		input(reuired type="password" name="password" placeholder="Password")
+		br
+		input(type="submit" value="Sign In")
